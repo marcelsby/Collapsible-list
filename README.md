@@ -1,5 +1,5 @@
 # Collapsible-list
-A very simple pure JavaScript plugin to expand and collapse nested html list!
+A very simple pure JavaScript plugin to expand and collapse a nested HTML list!
 
 # How to use
 To make any list collapsible only give `.collapsible` class to desired `ul` tag!
