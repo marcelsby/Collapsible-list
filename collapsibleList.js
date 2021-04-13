@@ -5,7 +5,7 @@ window.onload = function () {
     let showChilds = document.querySelectorAll(".collapsible li > span")
 		    .forEach(element => {
 			element.style.cursor = "pointer";
-			element.onclick = showul;
+			element.onclick = uncollapse;
 		    });
 
     function uncollapse () {
