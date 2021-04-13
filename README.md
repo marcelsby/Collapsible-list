@@ -1,19 +1,19 @@
 # Collapsible-list
 A very simple pure JavaScript plugin to expand and collapse nested html list!
 
-To make any list collapsible only give `.col_ul` class to desired `ul` tag!
+To make any list collapsible only give `.collapsible` class to desired `ul` tag!
 
 for example i want this list to have collapsible elements so i just give it a
-`col_ul` class
+.collapsible` class
 ```html
-<ul class="col_ul">
+<ul class=.collapsible">
    <li>helllo</li>
 </ul>
 ```
 now create **multi level list**
 as
 ```html
-<ul class="col_ul">
+<ul class=.collapsible">
     <li> Cities
         <ul>
             <li>karachi</li>
@@ -24,7 +24,7 @@ now when you run it, it will not collapse your multi level list!
 so just add `span` around mult level `li`'s text
 as
 ```html
-<ul class="col_ul">
+<ul class=.collapsible">
     <li> <span>Cities</span>
         <ul>
             <li>karachi</li>
@@ -34,7 +34,7 @@ as
 now it will work perfectly ;)
 You can add infinite levels to your list and it will work flawlessly !
 ```html
-<ul class="col_ul">
+<ul class=.collapsible">
     <li> <span>Cities</span>
         <ul>
             <li><span>karachi</span>
